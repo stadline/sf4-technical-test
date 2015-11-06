@@ -6,7 +6,7 @@
 * Le temps est libre mais il est tout de même conseillé de passer moins de 4h sur le sujet (temps de setup d'environnement compris)
 * Il est conseillé de finir les points requis avant de s'attaquer au bonus. 
 * Il est aussi conseillé de faire un maximum de commit pour bien détailler les étapes de votre raisonnement au court du développement. 
-* N'hésitez pas à nous faire des retours et nous expliquer les éventuelles problématiques blocantes que vous auriez rencontrées durant le développement vous empéchant de finir.
+* N'hésitez pas à nous faire des retours et nous expliquer les éventuelles problématiques bloquantes que vous auriez rencontrées durant le développement vous empéchant de finir.
 
 ### Setup
 
@@ -17,9 +17,9 @@
 
 * Vous êtes libre d'utiliser un Bundle d'authentification externe ou votre propre bundle. 
 * Le formulaire de connexion doit avoir une validation coté serveur. 
-* Toutes les pages doivent être sécurisées et pointée sur la page de login si l'utilisateur n'est pas connecté. 
-* Le choix du client HTTP est laissé à discression pour appeller l'API de GitHub. 
-* Une fois connecté, il est nécessaire d'implémenter un champ de recherche qui permettent de chercher les repos GitHub d'un utilisateur. La documentation est disponible ici : http://developer.github.com/v3/repos/#list-user-repositories . 
+* Toutes les pages doivent être sécurisées et pointer sur la page de login si l'utilisateur n'est pas connecté. 
+* Le choix du client HTTP est laissé à discrétion pour appeller l'API de GitHub. 
+* Une fois connecté, il est nécessaire d'implémenter un champ de recherche qui permette de chercher les repos GitHub d'un utilisateur. La documentation est disponible ici : http://developer.github.com/v3/repos/#list-user-repositories . 
 * Vous devez appeller l'API suivante avec USER_NAME=searchFieldContent :
 ```
 https://api.github.com/users/USER_NAME/repos
@@ -29,15 +29,15 @@ https://api.github.com/users/USER_NAME/repos
 
 ### Bonus
 
-* Quand on clique sur le résultat, on affiche l'Id du répository et la date de création dans une tooltip. 
+* Quand on clique sur le résultat, on affiche l'Id du repository et la date de création dans une tooltip. 
 * Utilisation d'un frameworkJS pour afficher les résultats
 * Toutes les fonctionnalités que vous aurez le temps d'ajouter seront aussi bonnes à prendre. Un bonus autour de votre créativité pourra être considéré.
 
-### Délibravilité. 
+### Délivrabilité. 
 
 * Forkez le projet sur GitHub et codez directement dans le projet forké. 
-* Comitez aussi souvent que possible et commentez vos commits pour détailler votre chemin de pensée. 
+* Commitez aussi souvent que possible et commentez vos commits pour détailler votre chemin de pensée. 
 * Mettez à jour le README pour ajouter le temps passé et tout ce que vous jugerez nécessaire de nous faire savoir. 
 * Envoyez le lien avec le projet à recrutement@stadline.com. 
 
-*Bonne chance**
+**Bonne chance**
