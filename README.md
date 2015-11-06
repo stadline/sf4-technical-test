@@ -10,7 +10,7 @@
 
 ### Setup
 
-* La charte graphique n'est pas imposé et sera jugée en bonus. L'emploi d'un framework CSS type TwitterBootstrap est fortement conseillé. 
+* La charte graphique n'est pas imposée et sera jugée en bonus. L'emploi d'un framework CSS type TwitterBootstrap est fortement conseillé. 
 * Vous aurez besoin d'un environnement php5.5, Symfony2 et un serveur pour l'application. 
  
 ### Les pré-requis
@@ -20,7 +20,7 @@
 * Toutes les pages doivent être sécurisées et pointée sur la page de login si l'utilisateur n'est pas connecté. 
 * Le choix du client HTTP est laissé à discression pour appeller l'API de GitHub. 
 * Une fois connecté, il est nécessaire d'implémenter un champ de recherche qui permettent de chercher les repos GitHub d'un utilisateur. La documentation est disponible ici : http://developer.github.com/v3/repos/#list-user-repositories . 
-* Vous devez appeller l'API suivante avec USER_NAME=searchField :
+* Vous devez appeller l'API suivante avec USER_NAME=searchFieldContent :
 ```
 https://api.github.com/users/USER_NAME/repos
 ```
