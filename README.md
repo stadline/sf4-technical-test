@@ -23,20 +23,19 @@ La fonctionnalité de commentaire n'existe pas sur Github, vous devrez donc stoc
 * Le formulaire de connexion doit avoir une validation coté serveur. 
 * Toutes les pages doivent être sécurisées et pointer sur la page de login si l'utilisateur n'est pas connecté. 
 * Le choix du client HTTP est laissé à discrétion pour appeller l'API de GitHub.
-* Une fois connecté, il est nécessaire d'implémenter un champ de recherche qui permette de chercher les repos GitHub d'un utilisateur. La documentation est disponible ici : http://developer.github.com/v3/repos/#list-user-repositories . 
-* Vous devez appeller l'API suivante avec USER_NAME=searchFieldContent :
+* Une fois connecté, il est nécessaire d'implémenter un champ de recherche qui permette de chercher les utilisateurs GitHub. La documentation est disponible ici : https://developer.github.com/v3/search/#search-users . 
+* Vous devez appeller l'API suivante avec q=searchFieldContent :
 ```
-https://api.github.com/users/USER_NAME/repos
+https://api.github.com/search/users
 ```
-* Une fois le champ de recherche validé et l'utilisateur sélectionné, on arrive sur l'url /{username}/comment, on affiche un formulaire qui sera composé des champs suivants : Le nom d'un repos ({user}/{repos}, e.g : stadline/sf2-technical-test), un textArea pour le commentaire, un bouton validé permettant d'ajouter un commentaire. 
-* On affichera en dessous la liste des commentaires déjà saisis. 
-* Lors de la validation du formulaire, on vérifiera que le repository sélectionné est bien un repos appartenant à l'utilisateur précédement recherché. 
-* On attend aussi de vous que le code soit testable et testé unitairement.
+* Une fois le champ de recherche validé et l'utilisateur sélectionné, on arrive sur l'url /{username}/comment, on affiche un formulaire qui sera composé des champs suivants : un champ texte pour le nom d'un repos ({user}/{repos}, e.g : stadline/sf2-technical-test), un textArea pour le commentaire, un bouton valider permettant d'ajouter un commentaire. 
+* On affichera en dessous la liste des commentaires déjà saisis pour l'utilisateur.
+* Lors de la validation du formulaire, on vérifiera que le repository sélectionné est bien un repos appartenant à l'utilisateur précédement recherché.
+* On attend aussi de vous que le code soit testable et testé.
 
 ### Bonus
 
-* Quand on clique sur le résultat, on affiche l'Id du repository et la date de création dans une tooltip. 
-* On changera le choix du repos par un multiselect afin de lister directement dans le type les repos de l'utilisateur. 
+* On changera le choix du repos par un multiselect afin de lister directement dans le formulaire les repos de l'utilisateur. 
 * Utilisation d'un frameworkJS pour afficher les résultats
 * Toutes les fonctionnalités que vous aurez le temps d'ajouter seront aussi bonnes à prendre. Un bonus autour de votre créativité pourra être considéré.
 
