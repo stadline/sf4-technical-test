@@ -2,7 +2,11 @@
 
 ### Tache
 
-* Le sujet de base est simple : Il faut créer une page sécurisée qui permet à un utilisateur de se loguer et de faire un commentaire sur un repos publique d'un utilisateur GitHub.
+Le sujet de base est simple : Il faut créer une page sécurisée qui permet à un utilisateur de se loguer et de faire un commentaire sur un repos publique d'un utilisateur GitHub.
+La fonctionnalité de commentaire n'existe pas sur Github, vous devrez donc stocker et afficher ces commentaires dans votre espace sécurisé.
+
+### Règles
+
 * Le temps est libre mais il est tout de même conseillé de passer moins de 4h sur le sujet (temps de setup d'environnement compris)
 * Il est conseillé de finir les points requis avant de s'attaquer au bonus. 
 * Il est aussi conseillé de faire un maximum de commit pour bien détailler les étapes de votre raisonnement au court du développement. 
