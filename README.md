@@ -15,7 +15,7 @@ La fonctionnalité de commentaire n'existe pas sur Github, vous devrez donc stoc
 ### Setup
 
 * La charte graphique n'est pas imposée et sera jugée en bonus. L'emploi d'un framework CSS type Twitter Bootstrap est fortement conseillé. 
-* Vous aurez besoin d'un environnement php5.5, Symfony4 et un serveur pour l'application. 
+* Vous aurez besoin d'un environnement php7.1, Symfony4 pour l'application. 
 
 ### Les pré-requis
 
